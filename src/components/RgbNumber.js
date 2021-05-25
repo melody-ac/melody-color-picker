@@ -3,7 +3,7 @@ import React from 'react'
 const RgbNumber = (props) => {
     return(
         <div>
-         <lable>{props.lable}</lable>
+         <label>{props.label}</label>
             <input 
             type='number'
             min='0'

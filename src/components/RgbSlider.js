@@ -3,7 +3,7 @@ import React from 'react'
 const RgbSlider = (props) => {
     return(
         <div>
-            <lable>{props.lable}</lable>
+            <label>{props.label}</label>
             <input 
             type='range'
             min='0'

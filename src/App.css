@@ -1,16 +1,6 @@
 .App {
     text-align: center;
 }
-.card{
-    background-color: lightsalmon;
-    height: 300px;
-    width: 200px;
-    border: midnightblue solid 2px;
-    margin: 5px;
-   
-
-}
-
 .previewCircle{
     height: 100px;
     width: 100px;
@@ -18,3 +8,17 @@
     margin: auto;
 
 }    
+.cardWrapper{
+    display: flex;
+}
+.card{
+    margin: auto;
+}
+.swatch-creator-wrapper {
+    display: flex;
+}
+
+.swatchDisplayCard {
+    width: 200px;
+    margin:auto;
+}
